@@ -263,3 +263,59 @@ img {
   height: 100%;
 }
 /* /HERO */
+
+/* COURSE */
+.course {
+  margin-bottom: 80px;
+}
+
+.course__title {
+  margin-bottom: 35px;
+}
+
+.course__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.course__list-item {
+  display: flex;
+  /* align-items: center; */
+  background-color: #f6f9ff;
+  border-radius: 24px;
+  padding: 18px 24px;
+  gap: 40px;
+}
+
+.course__list-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+.course__list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.course__list-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--text-white);
+  max-width: 273px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.course__list-inner-title {
+  color: var(--text-black);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.course__list-inner-text {
+  margin: 0;
+}
+
+/* /COURSE */
