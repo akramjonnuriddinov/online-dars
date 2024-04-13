@@ -40,5 +40,3 @@ const contents = [
     </div>
   </section>
 </template>
-
-<style scoped></style>

@@ -94,6 +94,11 @@ img {
   height: auto;
 }
 
+ul {
+  padding: 0;
+  list-style: none;
+}
+
 .container {
   width: 100%;
   max-width: 1280px;
@@ -317,5 +322,60 @@ img {
 .course__list-inner-text {
   margin: 0;
 }
-
 /* /COURSE */
+
+/* CUSTOMER CHOICE */
+.choice {
+  margin-bottom: 80px;
+}
+
+.choice__title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choice__title {
+  margin-bottom: 0;
+  max-width: 631px;
+  width: 100%;
+}
+
+.choice__list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.choice__list-item {
+  display: flex;
+  align-items: center;
+  padding: 27px;
+  padding-top: 28px;
+  padding-right: 24px;
+  box-shadow: 0px 0px 50px 0px #0000001f;
+  border-radius: 12px;
+}
+
+.choice__list-item:nth-child(2n + 1) .choice__list-inner {
+  max-width: 320px;
+  width: 100%;
+}
+
+.choice__list-item:nth-child(2n) .choice__list-inner {
+  max-width: 511px;
+  width: 100%;
+}
+
+.choice__list-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 106px;
+  border-radius: 100%;
+  margin-right: 22px;
+  background-color: #f6f9ff;
+}
+/* /CUSTOMER CHOICE */
