@@ -35,7 +35,8 @@ const benifits = [
       <div class="hero__inner">
         <span class="hero__inner-text">Umr o’tib ketmoqda....</span>
         <h1 class="hero__title base-title">
-          Balkim <span class="base-title-red">zamonaviy</span> kasbni o’rganish vaqti kelgandir?
+          Balkim <span class="base-title-red hero__title--red">zamonaviy</span> kasbni o’rganish
+          vaqti kelgandir?
         </h1>
         <p class="hero__text">Zamonaviy kasb o’rganishni afzalliklari</p>
         <ul class="hero__list">
@@ -55,7 +56,7 @@ const benifits = [
     </div>
     <div class="hero__img-bg">
       <div class="hero__img-wrapper">
-        <img class="hero__img" src="/src/assets/images/hero/hero-img2.png" alt="" />
+        <img class="hero__img" src="@/assets/images/hero/hero-img2.png" alt="" />
       </div>
     </div>
   </section>
