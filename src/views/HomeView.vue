@@ -4,6 +4,7 @@ import AboutCourse from '@/components/AboutCourse.vue'
 import CustomerChoice from '@/components/CustomerChoice.vue'
 import AboutCourceVideo from '@/components/AboutCourceVideo.vue'
 import CourseCount from '@/components/CourseCount.vue'
+import TheAdvertisement from '@/components/TheAdvertisement.vue'
 </script>
 
 <template>
@@ -12,4 +13,5 @@ import CourseCount from '@/components/CourseCount.vue'
   <customer-choice />
   <about-cource-video />
   <course-count />
+  <the-advertisement />
 </template>
