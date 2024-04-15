@@ -6,6 +6,7 @@ import AboutCourceVideo from '@/components/AboutCourceVideo.vue'
 import CourseCount from '@/components/CourseCount.vue'
 import TheAdvertisement from '@/components/TheAdvertisement.vue'
 import ConsistCourse from '@/components/ConsistCourse.vue'
+import AboutCreator from '@/components/AboutCreator.vue'
 </script>
 
 <template>
@@ -16,4 +17,5 @@ import ConsistCourse from '@/components/ConsistCourse.vue'
   <course-count />
   <the-advertisement />
   <consist-course />
+  <about-creator />
 </template>
