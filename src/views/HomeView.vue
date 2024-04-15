@@ -5,6 +5,7 @@ import CustomerChoice from '@/components/CustomerChoice.vue'
 import AboutCourceVideo from '@/components/AboutCourceVideo.vue'
 import CourseCount from '@/components/CourseCount.vue'
 import TheAdvertisement from '@/components/TheAdvertisement.vue'
+import ConsistCourse from '@/components/ConsistCourse.vue'
 </script>
 
 <template>
@@ -14,4 +15,5 @@ import TheAdvertisement from '@/components/TheAdvertisement.vue'
   <about-cource-video />
   <course-count />
   <the-advertisement />
+  <consist-course />
 </template>

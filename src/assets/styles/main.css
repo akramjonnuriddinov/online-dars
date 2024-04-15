@@ -523,3 +523,145 @@ ul {
   margin: 0;
 }
 /* /ADVERT */
+
+/* CONSIST OF COURSE */
+.consist-course {
+  margin-bottom: 80px;
+}
+
+.consist-course__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.consist-course__title {
+  max-width: 459px;
+  width: 100%;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.consist-course__content {
+  max-width: 620px;
+  width: 100%;
+}
+
+.consist-course__text {
+  margin-bottom: 23px;
+}
+
+.consist-course__list {
+  display: flex;
+  gap: 41px;
+}
+
+.consist-course__list-item {
+  background-color: var(--dark-blue);
+  color: var(--text-white);
+  padding: 14px 23px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.consist-course__list-number {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43.5px;
+  display: block;
+}
+
+.consist-course__list-text {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+/* /CONSIST OF COURSE */
+
+/* ACCORDION */
+.accordion-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-list__item {
+  border-radius: 12px;
+  padding: 24px 27px;
+  box-shadow: 0px 0px 50px 0px #00000012;
+}
+
+.accordion-list__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.accordion-list__header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.accordion-list__icon {
+  margin-right: 18px;
+  display: flex;
+}
+
+.accordion-list__icon--open {
+  transform: rotate(180deg);
+}
+
+.accordion-list__header-number {
+  display: block;
+  color: #263238;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-right: 28px;
+}
+
+.accordion-list__header-title {
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0;
+  font-weight: 400;
+  color: var(--text-black);
+}
+
+.lesson-list__item {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-list__inner {
+  margin-top: 30px;
+}
+
+.accordion-list__inner-text {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 26.1px;
+  font-weight: 500;
+}
+
+.lesson-list__number {
+  display: block;
+  margin-right: 65px;
+  color: var(--text-light-gray);
+  font-size: 18px;
+  line-height: 22.5px;
+}
+
+.lesson-list__theme {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0a0d0f;
+}
+
+.lesson-list__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+/* /ACCORDION */

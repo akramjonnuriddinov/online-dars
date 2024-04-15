@@ -58,5 +58,3 @@ const choices = [
     </div>
   </section>
 </template>
-
-<style scoped></style>

@@ -6,5 +6,3 @@ import TheHeader from '@/components/TheHeader.vue'
   <the-header />
   <router-view />
 </template>
-
-<style scoped></style>

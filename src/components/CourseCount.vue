@@ -34,5 +34,3 @@ const counts = [
     </div>
   </section>
 </template>
-
-<style scoped></style>
