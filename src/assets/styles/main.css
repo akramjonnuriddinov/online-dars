@@ -963,3 +963,66 @@ ul {
   margin: 0;
 }
 /* /APP-SWIPER */
+
+/* ABOUT SALARY */
+.about-salary {
+  margin-bottom: 80px;
+}
+
+.about-salary__container {
+  max-width: 1275px;
+}
+
+.about-salary__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.about-salary__header-content {
+  max-width: 493px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.about-salary__title {
+  margin-bottom: 30px;
+}
+
+.about-salary__text {
+  margin: 0;
+  line-height: 30px;
+  color: var(--text-black);
+}
+
+.about-salary__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: -40px;
+}
+
+.about-salary__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.about-salary__item:nth-child(2n + 1) {
+  margin-right: 20px;
+}
+
+.about-salary__item-img {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.about-salary__item-link {
+  color: #035db0;
+  font-weight: 600;
+  line-height: 30px;
+  text-decoration: underline;
+}
+/* /ABOUT SALARY */

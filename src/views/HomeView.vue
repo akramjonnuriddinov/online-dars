@@ -9,6 +9,7 @@ import ConsistCourse from '@/components/ConsistCourse.vue'
 import AboutCreator from '@/components/AboutCreator.vue'
 import CourseGraduate from '@/components/CourseGraduate.vue'
 import AppSwiper from '@/components/AppSwiper.vue'
+import AboutSalary from '@/components/AboutSalary.vue'
 </script>
 
 <template>
@@ -22,4 +23,5 @@ import AppSwiper from '@/components/AppSwiper.vue'
   <about-creator />
   <course-graduate />
   <app-swiper />
+  <about-salary />
 </template>
