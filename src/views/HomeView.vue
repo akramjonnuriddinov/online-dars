@@ -7,6 +7,7 @@ import CourseCount from '@/components/CourseCount.vue'
 import TheAdvertisement from '@/components/TheAdvertisement.vue'
 import ConsistCourse from '@/components/ConsistCourse.vue'
 import AboutCreator from '@/components/AboutCreator.vue'
+import CourseGraduate from '@/components/CourseGraduate.vue'
 </script>
 
 <template>
@@ -18,4 +19,5 @@ import AboutCreator from '@/components/AboutCreator.vue'
   <the-advertisement />
   <consist-course />
   <about-creator />
+  <course-graduate />
 </template>

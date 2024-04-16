@@ -56,7 +56,7 @@ const benifits = [
     </div>
     <div class="hero__img-bg">
       <div class="hero__img-wrapper">
-        <img class="hero__img" src="@/assets/images/hero/hero-img2.png" alt="" />
+        <img class="hero__img" src="@/assets/images/hero/hero-img2.png" alt="hero_img" />
       </div>
     </div>
   </section>

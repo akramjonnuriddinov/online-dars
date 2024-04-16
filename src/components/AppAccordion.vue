@@ -112,7 +112,7 @@ const contents = ref([
           class="accordion-list__icon"
           :class="{ 'accordion-list__icon--open': expanded }"
           src="/src/assets/images/accordion-icon.svg"
-          alt=""
+          alt="accordion_icon"
         />
         <span class="accordion-list__header-number">{{ content.number }}</span>
         <h3 class="accordion-list__header-title">{{ content.title }}</h3>

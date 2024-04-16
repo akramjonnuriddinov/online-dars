@@ -10,7 +10,7 @@
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
       </p>
       <div class="video">
-        <img class="video__img" src="@/assets/images/video/video-top.jpg" alt="" />
+        <img class="video__img" src="@/assets/images/video/video-top.jpg" alt="course" />
         <iframe
           class="video__embed"
           width="695"

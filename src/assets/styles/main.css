@@ -739,5 +739,145 @@ ul {
 .creator__inner-list-text {
   margin: 0;
 }
-
 /* /ABOUT CREATOR */
+
+/* COURSE GRADUATE */
+.graduate {
+  margin-bottom: 80px;
+}
+
+.graduate__inner {
+  border: 1px solid #abb1b9;
+  border-radius: 12px;
+  padding: 40px 0;
+}
+
+.graduate__title {
+  margin-bottom: 40px;
+}
+
+.graduate__inner-header {
+  border-bottom: 1px solid #abb1b9;
+  padding: 0 38px 40px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.graduate__inner-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.graduate__user-img {
+  display: flex;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+.graduate__user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.graduate__inner-header-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.graduate__inner-text-light {
+  color: #afafaf;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.55px;
+  margin-bottom: 12px;
+}
+
+.graduate__inner-text-bold {
+  color: var(--text-black);
+  font-size: 23px;
+  line-height: 31.37px;
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.graduate__body {
+  border-bottom: 1px solid #abb1b9;
+  padding: 41px 0 40px;
+}
+
+.graduate__body-title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #afafaf;
+  font-size: 23px;
+  line-height: 31.37px;
+  font-weight: 600;
+}
+
+.graduate__list {
+  padding: 0;
+  max-width: 984px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 20px;
+  justify-content: space-between;
+  font-size: 23px;
+  line-height: 31.37px;
+  font-weight: 600;
+  color: var(--text-black);
+}
+
+.graduate__list-item {
+  display: flex;
+  align-items: center;
+  max-width: 244px;
+  width: 100%;
+}
+
+.graduate__list-icon {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin-right: 20px;
+  background-color: var(--text-red);
+}
+
+.graduate__certificate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.graduate__certificate-inner {
+  max-width: 445px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.graduate__certificate-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 34px;
+  line-height: 42.5px;
+  font-weight: 700;
+  color: var(--text-black);
+}
+
+.graduate__certificate-text {
+  color: #263238;
+  margin: 0;
+}
+/* /COURSE GRADUATE */

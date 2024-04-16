@@ -31,7 +31,7 @@ const choices = [
       <div class="choice__title-wrapper">
         <div class="choice__list-item">
           <div class="choice__list-img-wrapper">
-            <img class="choice__list-img" src="@/assets/images/choice/img5.png" alt="" />
+            <img class="choice__list-img" src="@/assets/images/choice/img5.png" alt="icon" />
           </div>
           <div class="choice__list-inner">
             <h3 class="choice__list-title">Yuqori natija</h3>
@@ -47,7 +47,7 @@ const choices = [
       <ul class="choice__list">
         <li v-for="choice in choices" :key="choice.img_url" class="choice__list-item">
           <div class="choice__list-img-wrapper">
-            <img class="choice__list-img" :src="getImageUrl(choice.img_url)" alt="" />
+            <img class="choice__list-img" :src="getImageUrl(choice.img_url)" alt="img" />
           </div>
           <div class="choice__list-inner">
             <h3 class="choice__list-title">{{ choice.title }}</h3>

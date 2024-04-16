@@ -36,7 +36,7 @@ const contents = [
               <img
                 class="creator__inner-list-img"
                 src="/src/assets/images/creator/check.svg"
-                alt=""
+                alt="check_icon"
               />
             </div>
             <p class="creator__inner-list-text">{{ content.text }}</p>
