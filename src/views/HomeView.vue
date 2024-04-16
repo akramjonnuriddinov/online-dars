@@ -8,6 +8,7 @@ import TheAdvertisement from '@/components/TheAdvertisement.vue'
 import ConsistCourse from '@/components/ConsistCourse.vue'
 import AboutCreator from '@/components/AboutCreator.vue'
 import CourseGraduate from '@/components/CourseGraduate.vue'
+import AppSwiper from '@/components/AppSwiper.vue'
 </script>
 
 <template>
@@ -20,4 +21,5 @@ import CourseGraduate from '@/components/CourseGraduate.vue'
   <consist-course />
   <about-creator />
   <course-graduate />
+  <app-swiper />
 </template>
