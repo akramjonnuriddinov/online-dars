@@ -1113,3 +1113,65 @@ ul {
   color: #b6b3b3;
 }
 /* /CONTACT */
+
+/* FOOTER */
+.footer {
+  background-color: var(--footer-bg);
+  color: var(--text-white);
+}
+
+.footer__container {
+  padding-top: 44px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 635px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.footer__logo {
+  margin-bottom: 24px;
+}
+
+.footer__text {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.footer__privacy {
+  color: var(--text-light-blue);
+  line-height: 27px;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.footer__contact-text {
+  color: var(--text-light-blue);
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.footer__contact-phone-wrapper {
+  display: flex;
+  align-items: center;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.footer__contact-phone {
+  margin-right: 8px;
+}
+/* /FOOTER */
