@@ -1026,3 +1026,13 @@ ul {
   text-decoration: underline;
 }
 /* /ABOUT SALARY */
+
+/* FAQ */
+.faq {
+  margin-bottom: 80px;
+}
+
+.faq__title {
+  margin-bottom: 30px;
+}
+/* /FAQ */
