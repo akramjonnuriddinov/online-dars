@@ -106,8 +106,13 @@ const contents = ref([
 
 <template>
   <ul class="accordion-list">
-    <li v-for="content in contents" :key="content.number" class="accordion-list__item">
-      <div @click="content.isOpen = !content.isOpen" class="accordion-list__header">
+    <li
+      v-for="content in contents"
+      :key="content.number"
+      @click="content.isOpen = !content.isOpen"
+      class="accordion-list__item"
+    >
+      <div class="accordion-list__header">
         <img
           class="accordion-list__icon"
           :class="{ 'accordion-list__icon--open': expanded }"

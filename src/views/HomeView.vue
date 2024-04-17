@@ -10,6 +10,7 @@ import AboutCreator from '@/components/AboutCreator.vue'
 import CourseGraduate from '@/components/CourseGraduate.vue'
 import AppSwiper from '@/components/AppSwiper.vue'
 import AboutSalary from '@/components/AboutSalary.vue'
+import FaqComponent from '@/components/FaqComponent.vue'
 </script>
 
 <template>
@@ -24,4 +25,5 @@ import AboutSalary from '@/components/AboutSalary.vue'
   <course-graduate />
   <app-swiper />
   <about-salary />
+  <faq-component />
 </template>
