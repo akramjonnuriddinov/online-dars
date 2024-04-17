@@ -294,7 +294,6 @@ ul {
 
 .course__list-item {
   display: flex;
-  /* align-items: center; */
   background-color: #f6f9ff;
   border-radius: 24px;
   padding: 18px 24px;
@@ -1036,3 +1035,81 @@ ul {
   margin-bottom: 30px;
 }
 /* /FAQ */
+
+/* CONTACT */
+.contact {
+  margin-bottom: 80px;
+}
+
+.contact__container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.contact__base {
+  background-color: #f6f9ff;
+  border-radius: 12px;
+  max-width: 605px;
+  width: 100%;
+  padding-top: 57px;
+  padding-left: 42px;
+  padding-bottom: 56px;
+}
+
+.contact__base-title {
+  margin-bottom: 24px;
+  color: var(--text-red);
+  font-size: 16px;
+  line-height: 21.82px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact__info {
+  margin-right: 30px;
+  padding-right: 53px;
+}
+
+.contact__price {
+  margin-top: 0;
+  margin-bottom: 21px;
+  text-transform: uppercase;
+  color: var(--text-black);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  display: block;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  padding-right: 64px;
+}
+
+.contact__form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form-field:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.contact__form-text {
+  color: #9a9a9a;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.contact__form-input {
+  border: 1px solid #9d9d9d;
+  border-radius: 12px;
+  padding: 16px 18px 15px;
+}
+
+.contact__form-input::placeholder {
+  color: #b6b3b3;
+}
+/* /CONTACT */

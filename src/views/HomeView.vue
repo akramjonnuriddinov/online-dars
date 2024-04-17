@@ -11,6 +11,7 @@ import CourseGraduate from '@/components/CourseGraduate.vue'
 import AppSwiper from '@/components/AppSwiper.vue'
 import AboutSalary from '@/components/AboutSalary.vue'
 import FaqComponent from '@/components/FaqComponent.vue'
+import ContactUs from '@/components/ContactUs.vue'
 </script>
 
 <template>
@@ -26,4 +27,5 @@ import FaqComponent from '@/components/FaqComponent.vue'
   <app-swiper />
   <about-salary />
   <faq-component />
+  <contact-us />
 </template>
