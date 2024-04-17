@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import { ref } from 'vue'
+import { updateNumber } from '@/composables/usePhone'
+
 const contents = [
   {
     id: '1',
@@ -13,6 +16,8 @@ const contents = [
     text: 'Lorem Ipsum is simply dummy text of the printing and typesetting '
   }
 ]
+
+const phone = ref()
 </script>
 
 <template>
@@ -49,10 +54,12 @@ const contents = [
         <label class="contact__form-field" for="phone">
           <span class="contact__form-text">TELEFON RAQAMINGIZ</span>
           <input
+            v-model="phone"
             class="contact__form-input"
             id="phone"
             type="tel"
-            placeholder="+998"
+            placeholder="+998 (--) --- -- --"
+            @input="phone = updateNumber(phone)"
             autocomplete="off"
           />
         </label>
