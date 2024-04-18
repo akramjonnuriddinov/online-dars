@@ -43,6 +43,7 @@ defineProps({
 
 <style scoped>
 .base-button {
+  white-space: nowrap;
   font-weight: 900;
   color: white;
   background-color: var(--text-red);
