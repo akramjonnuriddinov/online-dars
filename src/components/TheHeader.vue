@@ -30,6 +30,8 @@ const toggleMenu = () => {
 onUpdated(() => {
   if (isOpen.value) {
     document.body.classList.add('overflow-hidden')
+  } else {
+    document.body.classList.remove('overflow-hidden')
   }
 })
 </script>
@@ -40,7 +42,7 @@ onUpdated(() => {
       <router-link class="header__logo" to="/">
         <the-logo />
       </router-link>
-      <nav class="header__nav" :class="{ 'header__nav--open': isOpen }">
+      <nav class="header__nav" :class="{ flex: isOpen }">
         <button @click="toggleMenu" class="open-menu close-menu">
           <img src="@/assets/images/close.svg" alt="" />
         </button>
@@ -51,7 +53,7 @@ onUpdated(() => {
         </ul>
         <base-button class="header__tablet-btn" />
       </nav>
-      <base-button />
+      <base-button class="header__btn" />
       <button @click="toggleMenu" class="open-menu">
         <img src="@/assets/images/menu.svg" alt="" />
       </button>
