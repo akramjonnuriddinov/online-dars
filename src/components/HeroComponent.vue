@@ -53,11 +53,7 @@ const benifits = [
           </li>
         </ul>
       </div>
-    </div>
-    <div class="hero__img-bg">
-      <div class="hero__img-wrapper">
-        <img class="hero__img" src="@/assets/images/hero/hero-img2.png" alt="hero_img" />
-      </div>
+      <img class="hero__img" src="@/assets/images/hero/hero-img.png" alt="hero_img" />
     </div>
   </section>
 </template>
