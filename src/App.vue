@@ -4,7 +4,24 @@ import TheFooter from '@/components/TheFooter.vue'
 </script>
 
 <template>
-  <the-header />
-  <router-view />
-  <the-footer />
+  <div id="app">
+    <the-header />
+    <div class="main-content">
+      <router-view />
+    </div>
+    <the-footer />
+  </div>
 </template>
+
+<style>
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-content {
+  flex-grow: 1;
+  height: 100%;
+}
+</style>
