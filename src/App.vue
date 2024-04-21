@@ -22,6 +22,5 @@ import TheFooter from '@/components/TheFooter.vue'
 
 .main-content {
   flex-grow: 1;
-  height: 100%;
 }
 </style>

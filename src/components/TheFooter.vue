@@ -19,9 +19,10 @@ import LogoDark from '@/components/LogoDark.vue'
         <span class="footer__contact-text">Qo’shimcha ma’lumot uchun</span>
         <div class="footer__contact-phone-wrapper">
           <img class="footer__contact-phone" src="@/assets/images/phone.svg" alt="phone" />
-          <span>+998 97 628 28 82</span>
+          <span class="footer__contact-number">+998 97 628 28 82</span>
         </div>
       </div>
+      <span class="footer__privacy footer__privacy--mobile">Barcha huquqlar himoyalangan</span>
     </div>
   </footer>
 </template>

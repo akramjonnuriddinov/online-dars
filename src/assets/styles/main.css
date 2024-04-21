@@ -1193,6 +1193,12 @@ ul {
   line-height: 27px;
 }
 
+.footer__privacy--mobile {
+  display: none;
+  text-align: center;
+  margin-top: 32px;
+}
+
 .footer__contact {
   display: flex;
   flex-direction: column;
@@ -1214,6 +1220,10 @@ ul {
 
 .footer__contact-phone {
   margin-right: 8px;
+}
+
+.footer__contact-number {
+  white-space: nowrap;
 }
 /* /FOOTER */
 
@@ -1296,5 +1306,33 @@ ul {
   }
 }
 /* /HERO MEDIA QUERY */
+
+/* FOOTER MEDIA QUERY */
+@media (max-width: 960px) {
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__info {
+    margin-right: 0;
+    margin-bottom: 32px;
+    align-items: center;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer__contact {
+    align-items: center;
+  }
+
+  .footer__privacy {
+    display: none;
+  }
+
+  .footer__privacy--mobile {
+    display: block;
+  }
+}
+/* FOOTER MEDIA /QUERY */
 
 /* **** /MEDIA QUERIES **** */
