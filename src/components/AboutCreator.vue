@@ -20,7 +20,7 @@ const contents = [
 </script>
 
 <template>
-  <section class="creator">
+  <section id="about_owner" class="creator">
     <div class="container creator__container">
       <img class="creator__img" src="@/assets/images/creator/creator.png" alt="creator" />
       <div class="creator__inner">

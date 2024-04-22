@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="about-video">
+  <section id="owner_videos" class="about-video">
     <div class="container about-video__container">
       <h2 class="about-video__title base-title">
         muallifdan <span class="base-title-red">kurs haqida video</span>

@@ -34,6 +34,11 @@ onUpdated(() => {
     document.body.classList.remove('overflow-hidden')
   }
 })
+
+const scroll = (path: any) => {
+  const element = document.getElementById(path)
+  element?.scrollIntoView({ behavior: 'smooth' })
+}
 </script>
 
 <template>
@@ -47,8 +52,13 @@ onUpdated(() => {
           <img src="@/assets/images/close.svg" alt="" />
         </button>
         <ul class="header__list">
-          <li v-for="link in links" :key="link.path" class="header__list-item">
-            <router-link :to="link.path" class="header__list-link">{{ link.name }}</router-link>
+          <li
+            v-for="link in links"
+            :key="link.path"
+            class="header__list-item"
+            @click="scroll(link.path)"
+          >
+            <a href="#" class="header__list-link">{{ link.name }}</a>
           </li>
         </ul>
         <base-button class="header__tablet-btn" />

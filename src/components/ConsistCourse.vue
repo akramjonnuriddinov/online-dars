@@ -14,7 +14,7 @@ const consists = [
 </script>
 
 <template>
-  <section class="consist-course">
+  <section id="about_course" class="consist-course">
     <div class="container consist-course__container">
       <div class="consist-course__inner">
         <h2 class="consist-course__title base-title">

@@ -40,7 +40,7 @@ const users = [
 </script>
 
 <template>
-  <section class="app-swiper">
+  <section id="comments" class="app-swiper">
     <div class="container app-swiper__container">
       <div class="app-swiper__header">
         <h2 class="app-swiper__title base-title">
