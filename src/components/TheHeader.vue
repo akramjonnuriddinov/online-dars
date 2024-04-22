@@ -61,9 +61,9 @@ const scroll = (path: any) => {
             <a href="#" class="header__list-link">{{ link.name }}</a>
           </li>
         </ul>
-        <base-button class="header__tablet-btn" />
+        <base-button @click="scroll('contact-us')" class="header__tablet-btn" />
       </nav>
-      <base-button class="header__btn" />
+      <base-button @click="scroll('contact-us')" class="header__btn" />
       <button @click="toggleMenu" class="open-menu">
         <img src="@/assets/images/menu.svg" alt="" />
       </button>

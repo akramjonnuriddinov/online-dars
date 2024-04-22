@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HeroComponent from '@/components/HeroComponent.vue'
+import HeroComponent from '@/components/HeroComponent2.vue'
 import AboutCourse from '@/components/AboutCourse.vue'
 import CustomerChoice from '@/components/CustomerChoice.vue'
 import AboutCourceVideo from '@/components/AboutCourceVideo.vue'

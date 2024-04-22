@@ -21,7 +21,7 @@ const phone = ref()
 </script>
 
 <template>
-  <section class="contact">
+  <section id="contact-us" class="contact">
     <div class="container contact__container">
       <div class="contact__base contact__info">
         <h3 class="contact__base-title">KURS NARXI</h3>
