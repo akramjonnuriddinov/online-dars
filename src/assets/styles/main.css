@@ -1176,6 +1176,19 @@ ul {
   margin-right: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .about-salary__header-content {
+    text-align: center;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about-salary__header-content {
+    text-align: left;
+    max-width: 100%;
+  }
+}
+
 .about-salary__title {
   margin-bottom: 30px;
 }
@@ -1197,6 +1210,12 @@ ul {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .about-salary__item {
+    width: 100%;
+  }
 }
 
 .about-salary__item:nth-child(2n + 1) {
