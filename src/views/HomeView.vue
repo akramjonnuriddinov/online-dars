@@ -18,7 +18,7 @@ import ContactUs from '@/components/ContactUs.vue'
   <hero-component />
   <about-course />
   <customer-choice />
-  <about-cource-video />
+  <!-- <about-cource-video />
   <course-count />
   <the-advertisement />
   <consist-course />
@@ -27,5 +27,5 @@ import ContactUs from '@/components/ContactUs.vue'
   <app-swiper />
   <about-salary />
   <faq-component />
-  <contact-us />
+  <contact-us /> -->
 </template>
