@@ -375,11 +375,6 @@ ul {
     min-width: 196px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .course__list-img-wrapper {
-    /* max-width: 273px; */
-  }
-}
 
 .course__list-inner-title {
   color: var(--text-black);
@@ -828,6 +823,20 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1168px) {
+  .creator__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .creator__subtitle,
+  .creator__title,
+  .creator__text {
+    text-align: center;
+  }
 }
 
 .creator__img {
