@@ -402,8 +402,24 @@ ul {
 
 .choice__title-wrapper {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column-reverse;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .choice__title-wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .choice__list-item {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 .choice__title {
