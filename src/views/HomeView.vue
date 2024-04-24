@@ -18,9 +18,9 @@ import ContactUs from '@/components/ContactUs.vue'
   <hero-component />
   <about-course />
   <customer-choice />
-  <!-- <about-cource-video />
+  <about-cource-video />
   <course-count />
-  <the-advertisement />
+  <!-- <the-advertisement />
   <consist-course />
   <about-creator />
   <course-graduate />
