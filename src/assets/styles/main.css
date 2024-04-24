@@ -743,6 +743,8 @@ ul {
   align-items: center;
   cursor: pointer;
   width: 100%;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .accordion-list__icon {
@@ -757,15 +759,12 @@ ul {
 .accordion-list__header-number {
   display: block;
   color: #263238;
-  font-weight: 700;
-  font-size: 24px;
+
   line-height: 30px;
   margin-right: 28px;
 }
 
 .accordion-list__header-title {
-  font-size: 24px;
-  line-height: 30px;
   margin: 0;
   font-weight: 400;
   color: var(--text-black);
@@ -806,6 +805,16 @@ ul {
 
 .lesson-list__item:not(:last-child) {
   margin-bottom: 24px;
+}
+
+@media screen and (max-width: 670px) {
+  .accordion-list__header {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .accordion-list__header-number {
+    white-space: nowrap;
+  }
 }
 /* /ACCORDION */
 
