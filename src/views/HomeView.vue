@@ -26,6 +26,6 @@ import ContactUs from '@/components/ContactUs.vue'
   <course-graduate />
   <app-swiper />
   <about-salary />
-  <!-- <faq-component />
-  <contact-us /> -->
+  <faq-component />
+  <contact-us />
 </template>
