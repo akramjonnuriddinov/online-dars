@@ -18,6 +18,7 @@ import TheFooter from '@/components/TheFooter.vue'
   display: flex;
   flex-direction: column;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .main-content {

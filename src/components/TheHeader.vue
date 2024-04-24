@@ -47,7 +47,7 @@ const scroll = (path: any) => {
       <router-link class="header__logo" to="/">
         <the-logo />
       </router-link>
-      <nav class="header__nav" :class="{ flex: isOpen }">
+      <nav class="header__nav" :class="{ 'header-nav--open': isOpen }">
         <button @click="toggleMenu" class="open-menu close-menu">
           <img src="@/assets/images/close.svg" alt="" />
         </button>
@@ -90,5 +90,17 @@ const scroll = (path: any) => {
 
 .header__transparent-bg--open {
   display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__nav {
+    display: flex;
+    transition: 0.4s ease all;
+    transform: translateX(100%);
+  }
+
+  .header-nav--open {
+    transform: translateX(0);
+  }
 }
 </style>
