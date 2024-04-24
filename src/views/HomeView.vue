@@ -23,8 +23,8 @@ import ContactUs from '@/components/ContactUs.vue'
   <the-advertisement />
   <consist-course />
   <about-creator />
-  <!-- <course-graduate />
-  <app-swiper />
+  <course-graduate />
+  <!-- <app-swiper />
   <about-salary />
   <faq-component />
   <contact-us /> -->
