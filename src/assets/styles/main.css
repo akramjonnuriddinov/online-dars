@@ -596,6 +596,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   max-width: 1276px;
+  flex-wrap: wrap;
 }
 
 .advert__img {

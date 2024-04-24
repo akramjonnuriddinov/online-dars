@@ -20,8 +20,8 @@ import ContactUs from '@/components/ContactUs.vue'
   <customer-choice />
   <about-cource-video />
   <course-count />
-  <!-- <the-advertisement />
-  <consist-course />
+  <the-advertisement />
+  <!-- <consist-course />
   <about-creator />
   <course-graduate />
   <app-swiper />
