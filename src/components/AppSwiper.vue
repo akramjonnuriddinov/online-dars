@@ -3,13 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/vue'
 import 'swiper/css'
 import { getImageUrl } from '@/composables/getImageUrl'
 
-const onSwiper = (swiper: any) => {
-  // console.log(swiper)
-}
-
-const onSlideChange = () => {
-  console.log('slide change')
-}
+const onSwiper = () => {}
+const onSlideChange = () => {}
 
 const users = [
   {
@@ -59,8 +54,8 @@ const users = [
     <!-- SWIPER -->
     <swiper
       class="swiper"
-      :slides-per-view="3"
-      :space-between="50"
+      :slides-per-view="2"
+      :space-between="0"
       @swiper="onSwiper"
       @slideChange="onSlideChange"
     >
@@ -83,6 +78,14 @@ const users = [
       </swiper-slide>
     </swiper>
     <!-- /SWIPER -->
+    <div class="app-swiper__btn-wrapper swiper-bottom">
+      <button class="app-swiper__header-dark-btn swiper-btn">
+        <img src="/src/assets/images/swiper/right.svg" alt="right_icon" />
+      </button>
+      <button class="app-swiper__header-red-btn swiper-btn">
+        <img src="/src/assets/images/swiper/left.svg" alt="left_icon" />
+      </button>
+    </div>
   </section>
 </template>
 

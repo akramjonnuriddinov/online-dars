@@ -1172,6 +1172,55 @@ ul {
 .swiper-slide__text {
   margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .swiper-slide__title {
+    font-size: 18px;
+    line-height: 22.5px;
+  }
+  .swiper-slide__text {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .swiper-slide__img {
+    width: 223px;
+    height: 223px;
+  }
+  .swiper-slide {
+    width: 727px !important;
+  }
+}
+.swiper-bottom {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .swiper-slide-custom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .swiper-slide__title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .swiper-slide__text {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+  .swiper-slide__img {
+    width: 108px;
+    height: 108px;
+  }
+  .swiper-slide {
+    width: 100% !important;
+  }
+  .app-swiper__btn-wrapper {
+    display: none;
+  }
+  .swiper-bottom {
+    display: flex;
+    justify-content: center;
+  }
+}
 /* /APP-SWIPER */
 
 /* ABOUT SALARY */
