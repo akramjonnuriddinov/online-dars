@@ -21,8 +21,8 @@ import ContactUs from '@/components/ContactUs.vue'
   <about-cource-video />
   <course-count />
   <the-advertisement />
-  <!-- <consist-course />
-  <about-creator />
+  <consist-course />
+  <!-- <about-creator />
   <course-graduate />
   <app-swiper />
   <about-salary />
