@@ -4,7 +4,7 @@ import 'swiper/css'
 import { getImageUrl } from '@/composables/getImageUrl'
 
 const onSwiper = (swiper: any) => {
-  console.log(swiper)
+  // console.log(swiper)
 }
 
 const onSlideChange = () => {
